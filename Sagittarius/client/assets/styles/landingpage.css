@@ -1,0 +1,60 @@
+.landing-container {
+  background: black;
+}
+
+/* Change cursor to grab when dragging the map */
+.ol-grabbing,
+.ol-dragging {
+  cursor: grab !important;
+}
+
+/* Change cursor to grab when hovering over the map */
+.ol-viewport:hover {
+  cursor: grab !important;
+}
+
+/* Change cursor to pointer when hovering over interactive elements */
+.ol-pointer {
+  cursor: pointer !important;
+}
+
+.marker-container {
+  position: relative;
+  display: inline-block;
+}
+
+.marker-textbox {
+  background-color: white;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.marker-container {
+  display: flex;
+  align-items: center;
+}
+
+.marker-textbox {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

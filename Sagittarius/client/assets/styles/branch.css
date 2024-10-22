@@ -1,0 +1,29 @@
+.white-background-branch {
+  background-color: #ffffff;
+  border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.color-department-branch {
+  color: #6c757d;
+  border-bottom: 1px solid black;
+}
+
+.color-team-branch {
+  border-bottom: 1px solid black;
+}
+
+.box-branch {
+  border: 2px solid #ccc;
+  padding: 16px;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.img-team-styled-branch {
+  width: 50px; /* Adjust as necessary */
+  height: 50px; /* Adjust as necessary */
+  border-radius: 50%; /* Optional: for round images */
+}
+
+.team-heading-branch {
+  margin-right: 95px; /* This pushes "Your team" to the middle */
+}

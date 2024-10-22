@@ -1,0 +1,271 @@
+body {
+  height: 100vh;
+  background-image: url("assets/images/background-image.png");
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+
+.narrower-input {
+  width: 200px;
+}
+
+.narrow-button {
+  width: 200px;
+}
+
+.kpmg-blue {
+  background-color: #00338d;
+}
+
+.navbar-space {
+  margin-left: 64px;
+}
+
+.footer-space {
+  margin-left: 20px;
+}
+
+.footer-style {
+  font-style: italic;
+}
+
+.navbar-fontsize {
+  font-size: 20px;
+  margin-bottom: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.background-landing {
+  background-image: url("./assets/images/KPMG-bygget_1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.text-container {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.text-container button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-container button:hover {
+  background-color: #555;
+}
+
+.antibribary-image {
+  background-image: url("./assets/images/AntiBribary.png");
+}
+
+.codeofconduct-image {
+  background-image: url("./assets/images/CodeOfConduct.png");
+}
+
+.informationprivacy-image {
+  background-image: url("./assets/images/InformationPrivacy.png");
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /*adjust the gap value as needed*/
+}
+
+.image-container {
+  text-align: center; /* Center the text under the image */
+}
+
+.antibribary-image,
+.codeofconduct-image,
+.informationprivacy-image {
+  border-radius: 50px; /* Adjust the value as needed */
+  overflow: hidden; /* Ensure the rounded corners are applied properly */
+  width: 30vw; /* Specify the width if not already specified */
+  height: 30vh; /* Specify the height if not already specified */
+  background-size: cover; /* Ensure background images cover the div */
+  display: inline-block; /* Ensure the div behaves like an image */
+  border: 5px;
+  border-color: #00338d;
+  border-style: solid;
+}
+
+.image-caption {
+  color: white; /* Change the color to match your design */
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.profile-picture {
+  background-image: url("./assets/images/profilepic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pro-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-container {
+  flex: 1;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.personal-details {
+  flex: 2;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+  min-width: 250px;
+}
+
+#profile-inputs {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.profile-buttons,
+.profile-buttons2 {
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-buttons {
+  background-color: #005eb8;
+  color: white;
+}
+
+.profile-buttons2 {
+  background-color: #ccc;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .profile-container,
+  .personal-details {
+    width: 100%;
+  }
+
+  .profile-picture {
+    max-width: 150px;
+  }
+
+  .image-caption {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-picture {
+    max-width: 120px;
+  }
+
+  .image-caption {
+    font-size: 0.875rem;
+  }
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/images/background-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+footer p,
+h2 {
+  margin: 0;
+}
+
+.kpmg-lightblue {
+  position: relative;
+  display: inline-block;
+}
+
+.kpmg-lightblue::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #005eb8;
+}
+
+.kpmg-lightblue-text {
+  color: #005eb8;
+}
+
+.kpmg-lightblue-background {
+  background-color: #005eb8;
+}
+
+.white-color {
+  color: white;
+}

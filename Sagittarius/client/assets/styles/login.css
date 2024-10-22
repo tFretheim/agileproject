@@ -1,0 +1,198 @@
+/* Container for login page */
+.login-container {
+  height: 100vh;
+  background-image: url("../images/login-background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling for the login card */
+.login-card {
+  width: 80%;
+  max-width: 900px;
+  background-image: url("../images/kpmg-login-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure no overflow */
+}
+
+/* Calendar header styling */
+.header {
+  background-color: rgba(0, 51, 141); /* KPMG Blue */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for the subheader */
+.subheader {
+  background-color: rgba(72, 54, 152);
+  color: white;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* sizing of the KPMG logo */
+.kpmg-logo {
+  max-height: 50px;
+}
+
+/* styling to set up the login box */
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* styling for the welcome message */
+.welcome-message-container {
+  background-color: rgba(0, 51, 141, 0.9); /* Semi-transparent KPMG blue */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  flex-grow: 1;
+  max-width: 45%;
+}
+
+/* styling for the login form container */
+.login-form-container {
+  background-color: rgba(72, 54, 152, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  flex-grow: 1;
+  max-width: 45%;
+}
+
+/* styling for the card body */
+.card-body {
+  background-color: transparent; /* Transparent to show the background image */
+}
+
+/* styling for the card title */
+.card-title {
+  color: #00338d;
+}
+
+/* Form control styling, styling of the input boxes*/
+.form-control {
+  background-color: #f0f0f0; /* Light gray background for the input boxes */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Styling for the login button */
+#login-button.btn-custom,
+.btn-custom {
+  background-color: rgb(0, 163, 161);
+  color: white;
+  border: none;
+  transition: background-color 0.15s ease-in-out;
+}
+
+/* Styling for the login button on hover, focus, and active states */
+#login-button.btn-custom:hover,
+.btn-custom:hover,
+#login-button.btn-custom:focus,
+.btn-custom:focus {
+  background-color: #009688;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Styling for the login button on active state */
+#login-button.btn-custom:active,
+.btn-custom:active {
+  background-color: #00796b;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Styling for white text, when utilized */
+.text-white {
+  color: white !important;
+}
+
+/* Styling for the forgot password container */
+.password-reset-container {
+  background-color: rgba(0, 51, 141, 0.9); /* Semi-transparent KPMG blue */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 50%;
+  max-width: 500px; /* Ensure it doesn't grow too large */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the forgot password container header */
+.password-reset-container h3 {
+  max-width: 80%;
+}
+
+/* Styling for the forgot password container form */
+.password-reset-container .form-control {
+  max-width: 80%;
+}
+
+/* Styling for the forgot password container button */
+.password-reset-container .btn {
+  max-width: 80%;
+}
+
+/* Styling for the invalid input message */
+.is-invalid {
+  border: 2px solid red;
+  position: relative;
+}
+
+/* pseudo-element for the invalid input */
+.is-invalid::after {
+  content: "!";
+  color: red;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+/* Styling for the error message texts */
+.text-danger {
+  color: red !important;
+}
+
+/* Styling for the submit button on reset password button*/
+#submit-button.btn-custom {
+  background-color: rgb(0, 163, 161);
+  color: white;
+  border: none;
+  transition: background-color 0.15s ease-in-out;
+}
+
+/* Styling for the submit button on hover, focus, and active states */
+#submit-button.btn-custom:hover,
+#submit-button.btn-custom:focus {
+  background-color: #009688;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Styling for the submit button on active state */
+#submit-button.btn-custom:active {
+  background-color: #00796b;
+  outline: none;
+  box-shadow: none;
+}

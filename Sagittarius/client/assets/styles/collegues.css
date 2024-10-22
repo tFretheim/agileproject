@@ -1,0 +1,29 @@
+.white-background {
+  background-color: #ffffff;
+  border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.color-department {
+  color: #6c757d;
+  border-bottom: 1px solid black;
+}
+
+.color-team {
+  border-bottom: 1px solid black;
+}
+
+.box {
+  border: 2px solid #ccc;
+  padding: 16px;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.img-team-styled {
+  width: 50px; /* Adjust as necessary */
+  height: 50px; /* Adjust as necessary */
+  border-radius: 50%; /* Optional: for round images */
+}
+
+.team-heading {
+  margin-left: 120px; /* This pushes "Your team" to the middle */
+}

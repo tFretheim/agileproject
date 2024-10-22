@@ -1,0 +1,114 @@
+/* Styles for the calendar component */
+.calendar-container {
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  );
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 80px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the calendar header */
+h1 {
+  text-align: center;
+  color: #005eb8;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  background: linear-gradient(
+    to right,
+    #00338d,
+    #005eb8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+/* Styles for the calendar header underline */
+h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #005eb8;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Styles for the calendar body */
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Styles for the event card */
+.event-card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  border-left: 5px solid #005eb8;
+}
+
+/* Hover effect for the event card */
+.event-card:hover {
+  transform: scale(1.02);
+}
+
+/* Styles for the event card content */
+.event-date {
+  background-color: #00338d; /* KPMG Blue */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-width: 80px;
+}
+
+/* Styles for the event date */
+.event-day {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the event month */
+.event-month {
+  font-size: 14px;
+}
+
+/* Styles for the event details */
+.event-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for the event title, time, and description */
+.event-title {
+  font-size: 18px;
+  color: #00338d; /* KPMG Blue */
+  margin: 0;
+}
+
+/* Styles for the event time and description */
+.event-time {
+  font-size: 14px;
+  color: #005eb8;
+}
+
+.event-description {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
